@@ -35,11 +35,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -63,6 +58,13 @@
   		  <artifactId>spring-boot-configuration-processor</artifactId>
   		  <optional>true</optional>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web -->
+		<dependency>
+		  <groupId>org.springframework.security</groupId>
+   		  <artifactId>spring-security-web</artifactId>
+    	  <version>3.2.4.RELEASE</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
